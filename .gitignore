@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment
+.venv
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+backend/boards/
+backend/uploads/
+
+# Lock file (auto-generated per platform)
+uv.lock
+
+# IDE
+.vscode/
+.idea/
